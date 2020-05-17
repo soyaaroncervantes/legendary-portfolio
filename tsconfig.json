@@ -16,15 +16,33 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@portfolio/website/lazy": ["libs/website/lazy/src/index.ts"],
-      "@portfolio/website/ui": ["libs/website/ui/src/index.ts"],
-      "@portfolio/website/const": ["libs/website/const/src/index.ts"],
-      "@portfolio/website/interface": ["libs/website/interface/src/index.ts"],
-      "@portfolio/website/model": ["libs/website/model/src/index.ts"],
-      "@portfolio/website/shared": ["libs/website/shared/src/index.ts"],
-      "@portfolio/website/service": ["libs/website/service/src/index.ts"],
-      "@portfolio/website/components": ["libs/website/components/src/index.ts"],
-      "@portfolio/website/routes": ["libs/website/routes/src/index.ts"]
+      "@website/lazy/*": [
+        "libs/website/lazy/src/lib/*"
+      ],
+      "@website/ui/*": [
+        "libs/website/ui/src/lib/*"
+      ],
+      "@website/const/*": [
+        "libs/website/const/src/lib/*"
+      ],
+      "@website/interface/*": [
+        "libs/website/interface/src/lib/*"
+      ],
+      "@website/model/*": [
+        "libs/website/model/src/lib/*"
+      ],
+      "@website/shared/*": [
+        "libs/website/shared/src/lib/*"
+      ],
+      "@website/service/*": [
+        "libs/website/service/src/lib/*"
+      ],
+      "@website/components/*": [
+        "libs/website/components/src/lib/*"
+      ],
+      "@website/routes/*": [
+        "libs/website/routes/src/lib/*"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
