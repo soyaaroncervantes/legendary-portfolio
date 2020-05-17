@@ -1,1 +1,1 @@
-export * from './lib/website-routes.module';
+export * from './lib/main-page/main-page.module';

@@ -1,1 +1,1 @@
-export * from './lib/website-const.module';
+export * from './lib/website.routes';
