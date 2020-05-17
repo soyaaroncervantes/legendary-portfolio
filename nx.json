@@ -18,5 +18,34 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "website": {
+      "tags": []
+    },
+    "website-e2e": {
+      "tags": [],
+      "implicitDependencies": ["website"]
+    },
+    "website-const": {
+      "tags": []
+    },
+    "website-interface": {
+      "tags": []
+    },
+    "website-model": {
+      "tags": []
+    },
+    "website-shared": {
+      "tags": []
+    },
+    "website-service": {
+      "tags": []
+    },
+    "website-components": {
+      "tags": []
+    },
+    "website-routes": {
+      "tags": []
+    }
+  }
 }
